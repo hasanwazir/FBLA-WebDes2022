@@ -1,0 +1,225 @@
+
+h1 {
+  family: "Montserrat";
+  font-size: 3.7rem;
+  line-height: 1.5;
+  color: white;
+}
+
+hr {
+  border: 2px solid white;
+}
+
+.featurebox  {
+  height: 500px;
+}
+.description {
+  padding: 70px 160px 0 160px;
+    font-family: 'Righteous', cursive;
+
+
+}
+.blurb {
+  height:600px;
+  background-image: url("My project.jpg");
+  min-height: 200px;
+  min-width: 200px;
+
+}
+h2 {
+  font-size: 3rem;
+  line-height: 1.5em;
+  margin: auto;
+}
+
+body {
+    background-color: #850000;
+}
+.container-fluid {
+  padding: 2% 10% 0% 10%;
+}
+
+.footer-items {
+  font-size: 2.75rem;
+  text-align: center;
+  font-family: 'Righteous', cursive;
+
+}
+
+.attribution {
+  font-family: "Montserrat", cursive;
+  font-size: 1.5rem;
+}
+.menu-link {
+  font-size: 2.15rem;
+  text-align: center;
+  font-family: 'Righteous', cursive;
+
+}
+#title {
+  background-color: #850000;
+  color: white;
+}
+.navbar-brand {
+  font-size: 60px;
+  font-family: 'Dr Sugiyama', cursive;
+
+}
+.navbar {
+  color: white;
+}
+
+.description {
+  text-align: center;
+}
+.nav-item {
+  padding: 0 30px;
+  font-size: 2.75rem;
+  color: black;
+  font-family: "Ubuntu";
+}
+
+
+
+.btn {
+  margin: 5% 3% 5% 0;
+}
+
+.dp-img {
+  width:60%;
+  transform: rotate(20deg);
+}
+
+.featurebox {
+  padding: 50px 75px;
+}
+
+.txt {
+  margin: auto;
+  width: 70%;
+}
+
+.features {
+  text-align: center;
+}
+
+h3{
+    font-weight: bold;
+}
+
+.icn {
+  color:red;
+  padding-bottom: 10px;
+}
+
+.icn:hover {
+  color: black;
+
+}
+
+#testimonials {
+  padding: 7% 15%;
+  text-align: center;
+  background-color: #ef8172;
+  color: white;
+}
+
+.test-img {
+  width: 10%;
+  border-radius: 100%;
+  margin: 3%;
+}
+
+
+
+#press {
+  background-color: #ef8172;
+  text-align: center;
+  padding-bottom: 5%;
+}
+
+.pr-img {
+  width: 15%;
+  margin: 20px; 20px 50px;
+}
+
+.container-fluid {
+  color:white;
+}
+
+.container{
+  width: 1200px;
+  height: 800px;
+  background-color: #850000;
+
+}
+
+.slider-frame{
+     overflow: hidden;
+     height: fit-content;
+     width:fit-content;
+     margin: 42.5px auto 30px auto;
+ }
+
+ .tagline {
+   background-color:black;
+   height:fit-content;
+   font-size: 4rem;
+   text-align: center;
+  font-family: 'Dr Sugiyama', cursive;
+  background-image: url("background-footer.jpg");
+  color: white;
+ }
+
+
+ @keyframes slide_animation{
+     0% {left:0px;}
+     10% {left:0px;}
+     20% {left:1200px;}
+     30% {left:1200px;}
+     40% {left: 2400px;}
+     50% {left: 2400px;}
+     60% {left: 1200px;}
+     70% {left: 1200px;}
+     80% {left: 0px;}
+     90% {left: 0px;}
+     100% {left:0px;}
+ }
+
+ @-webkit-keyframes slide_animation{
+     0% {left:0px;}
+     10% {left:0px;}
+     20% {left:1200px;}
+     30% {left:1200px;}
+     40% {left: 2400px;}
+     50% {left: 2400px;}
+     60% {left: 1200px;}
+     70% {left: 1200px;}
+     80% {left: 0px;}
+     90% {left: 0px;}
+     100% {left:0px;}
+ }
+
+ .slide-images{
+     width: 3600px;
+     height: fit-content;
+     margin: 0 0 0 -2400px;
+     position: relative;
+     -webkit-animation-name: slide_animation;
+     animation-name: slide_animation;
+     -webkit-animation-duration: 33s;
+     animation-duration: 33s;
+     -webkit-animation-iteration-count: infinite;
+     animation-iteration-count: infinite;
+     -webkit-animation-direction: alternate;
+     animation-direction: alternate;
+     -webkit-animation-play-state: running;
+     animation-play-state: running;
+ }
+
+ .img-container{
+     height: 600px;
+     width: 1000px;
+     position: relative;
+     float: left;
+ }
